@@ -1,15 +1,15 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "md5"
-version = "1.0.2-2"
+version = "1.1.1-1"
 -- LuaDist source
 source = {
-  tag = "1.0.2-2",
+  tag = "1.1.1-1",
   url = "git://github.com/LuaDist-testing/md5.git"
 }
 -- Original source
 -- source = {
---    url = "http://luaforge.net/frs/download.php/2384/md5-1.0.2.tar.gz"
+--    url = "http://luaforge.net/frs/download.php/2746/md5-1.1.1.tar.gz"
 -- }
 description = {
    summary = "Basic cryptographic library",

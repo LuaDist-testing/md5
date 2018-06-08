@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "md5"
-version = "1.1.2-1"
+version = "1.1.2-2"
 -- LuaDist source
 source = {
-  tag = "1.1.2-1",
+  tag = "1.1.2-2",
   url = "git://github.com/LuaDist-testing/md5.git"
 }
 -- Original source
@@ -43,5 +43,6 @@ build = {
 	 LUA_LIB = "$(LUA_LIBDIR)\\lua5.1.lib"
        }
      }
-   }
+   },
+   copy_directories = { "doc", "tests" }
 }
